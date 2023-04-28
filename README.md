@@ -1,6 +1,11 @@
 # Music Genre Classifier
 
-This project is a music genre classifier that uses machine learning models to determine the genre of a 30 second clip song. It was trained with a dataset of 1000 songs and their respective genres. The dataset is from [Kaggle](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification) and contains 10 genres: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock. The dataset contains 100 songs - 30 seconds long per genre. 
+Project made by:
+
+- Alejandro Morales
+-Juan Sebastián Vargas
+
+This project is a music genre classifier that uses Neural Network to determine the genre of a 30 second clip song. It was trained with a dataset of 1000 songs and their respective genres. The dataset is from [Kaggle](https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification) and contains 10 genres: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock. The dataset contains 100 songs - 30 seconds long per genre. 
 
 <div style>
     <img src="https://raw.githubusercontent.com/amoralesc/music-genre-classifier/main/screenshots/screenshot_1.png" width="400">
