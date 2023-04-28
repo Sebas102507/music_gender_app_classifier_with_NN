@@ -1,0 +1,136 @@
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  border: 1px solid transparent;
+
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 0.25rem;
+}
+
+.btn-md {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+}
+
+.btn-lg {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.65rem;
+}
+
+.btn-primary {
+  color: var(--color-primary);
+  background-color: var(--bg-color-primary);
+}
+.btn-primary:hover,
+.btn-primary.toggled {
+  background-color: var(--bg-color-primary-dark);
+}
+
+.btn-secondary {
+  color: var(--color-secondary-dark);
+  background-color: var(--bg-color-secondary);
+}
+.btn-secondary:hover,
+.btn-secondary.toggled {
+  background-color: var(--bg-color-secondary-dark);
+}
+
+.btn-success {
+  color: var(--color-primary);
+  background-color: var(--color-success);
+}
+.btn-success:hover,
+.btn-success.toggled {
+  background-color: var(--color-success-dark);
+}
+
+.btn-danger {
+  color: var(--color-primary);
+  background-color: var(--color-error);
+}
+.btn-danger:hover,
+.btn-danger.toggled {
+  background-color: var(--color-error-dark);
+}
+
+.btn-info {
+  color: var(--color-primary);
+  background-color: var(--color-info);
+}
+.btn-info:hover,
+.btn-info.toggled {
+  background-color: var(--color-info-dark);
+}
+
+.btn-outline-primary {
+  color: var(--bg-color-primary);
+  border-color: var(--bg-color-primary);
+  box-shadow: inset 0 0 0 0.5px var(--bg-color-primary);
+  background-color: transparent;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary.toggled {
+  color: var(--color-primary);
+  background-color: var(--bg-color-primary);
+}
+
+.btn-outline-secondary {
+  color: var(--bg-color-secondary);
+  border-color: var(--bg-color-secondary);
+  box-shadow: inset 0 0 0 0.5px var(--bg-color-secondary);
+  background-color: transparent;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary.toggled {
+  color: var(--color-secondary-dark);
+  background-color: var(--bg-color-secondary);
+}
+
+.btn-outline-success {
+  color: var(--color-success);
+  border-color: var(--color-success);
+  box-shadow: inset 0 0 0 0.5px var(--color-success);
+  background-color: transparent;
+}
+.btn-outline-success:hover,
+.btn-outline-success.toggled {
+  color: var(--color-success);
+  background-color: var(--color-success);
+}
+
+.btn-outline-danger {
+  color: var(--color-error);
+  border-color: var(--color-error);
+  box-shadow: inset 0 0 0 0.5px var(--color-error);
+  background-color: transparent;
+}
+.btn-outline-danger:hover,
+.btn-outline-danger.toggled {
+  color: var(--color-error);
+  background-color: var(--color-error);
+}
+
+.btn-outline-info {
+  color: var(--color-info);
+  border-color: var(--color-info);
+  box-shadow: inset 0 0 0 0.5px var(--color-info);
+  background-color: transparent;
+}
+.btn-outline-info:hover,
+.btn-outline-info.toggled {
+  color: var(--color-info);
+  background-color: var(--color-info);
+}

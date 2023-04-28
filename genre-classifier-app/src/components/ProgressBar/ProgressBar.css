@@ -1,0 +1,27 @@
+.progress-bar {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  border-radius: 2rem;
+}
+
+.progress-bar--fill {
+  height: 100%;
+  background-color: var(--bg-color-primary);
+  transition: width 0.2s ease-in;
+}
+
+.progress-bar-sm {
+  height: 1rem;
+}
+
+.progress-bar-md {
+  height: 1.25rem;
+}
+
+.progress-bar-lg {
+  height: 1.5rem;
+}

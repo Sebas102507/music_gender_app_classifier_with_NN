@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "genre-classifier-api"
+version = "0.1.0"
+description = "Music genre classifier API that hosts the ML models"
+authors = ["Alejandro Morales <a.moralesc@javeriana.edu.co>", "Juan Sebastián Vargas Torres <vargas_jsebastian@javeriana.edu.co>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "genre_classifier_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = {extras = ["standard"], version = "^0.19.0"}
+fastapi = "^0.86.0"
+motor = "^3.1.1"
+celery = "^5.2.7"
+flower = "^1.2.0"
+librosa = "^0.9.2"
+requests = "^2.28.1"
+asgiref = "^3.5.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

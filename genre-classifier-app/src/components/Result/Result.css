@@ -1,0 +1,24 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.table-row {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.table-cell {
+  display: table-cell;
+  vertical-align: inherit;
+  border: 1.5px solid var(--color-primary);
+  padding: 0.25rem 0.5rem;
+}
+
+.dark-cell {
+  background-color: var(--bg-color-primary);
+  font-weight: 700;
+}
